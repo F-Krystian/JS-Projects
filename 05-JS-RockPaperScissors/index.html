@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="game">
+    <div class="game__header">
+        <h1 class="game__header-h1">Rock-Paper-Scissors</h1>
+    </div>
+    <div class="game__results">
+      <!-- Match results -->
+      <div class="game__match-results">
+        <h1 class="match-results"></h1>
+      </div>
+      <!-- Round Results -->
+      <div class="game__round-results">
+        <h1 class="game__round-result-message"></h1>
+        <div class="game__round-hands">
+          <img src="./img/rock.png" alt="rock" srcset="" class="picked-hand picked-hand-user">
+          <img src="./img/paper.png" alt="paper" srcset="" class="picked-hand picked-hand-pc">
+        </div>
+      </div>
+    </div>
+    <div class="game__players">
+      <!-- Player -->
+      <div class="game__player game__player-1">
+        <div class="game__player-header">
+          <div class="game__player-ico">
+            <span class="material-symbols-outlined game__player-ico-display">account_circle</span>
+          </div>
+          <div class="game__player-name">Player</div>
+          <div class="game__player-score">0</div>
+        </div>
+        <div class="game__player-choices">
+          <img src="./img/rock.png" alt="rock" srcset="" class="img-choice user-choices choice-rock">
+          <img src="./img/paper.png" alt="paper" srcset="" class="img-choice user-choices choice-paper">
+          <img src="./img/scissors.png" alt="scissors" srcset="" class="img-choice user-choices choice-scissors">
+        </div>
+      </div>
+      
+      <!-- Computer -->
+      <div class="game__player game__player-2">
+        <div class="game__player-header">
+          <div class="game__player-ico">
+            <span class="material-symbols-outlined game__player-ico-display">computer</span>
+          </div>
+          <div class="game__player-name">Computer</div>
+          <div class="game__player-score">0</div>
+        </div>
+        <div class="game__player-choices">
+          <img src="./img/rock.png" alt="rock" srcset="" class="img-choice choice-rock">
+          <img src="./img/paper.png" alt="paper" srcset="" class="img-choice choice-paper">
+          <img src="./img/scissors.png" alt="scissors" srcset="" class="img-choice choice-scissors">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

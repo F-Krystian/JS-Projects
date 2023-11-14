@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Recipe 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "time": 45,
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3", "Ingredient 4"],
+    "imgSrc": "./img/img-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Recipe 2",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "time": 50,
+    "ingredients": ["Ingredient A", "Ingredient B", "Ingredient C", "Ingredient D"],
+    "imgSrc": "./img/img-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Recipe 3",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "time": 55,
+    "ingredients": ["Ingredient X", "Ingredient Y", "Ingredient Z", "Ingredient W"],
+    "imgSrc": "./img/img-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Recipe 4",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+    "time": 40,
+    "ingredients": ["Ingredient M", "Ingredient N", "Ingredient O", "Ingredient P"],
+    "imgSrc": "./img/img-1.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Recipe 5",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+    "time": 45,
+    "ingredients": ["Ingredient Alpha", "Ingredient Beta", "Ingredient Gamma", "Ingredient Delta"],
+    "imgSrc": "./img/img-2.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Recipe 6",
+    "description": "Deserunt mollit anim id est laborum.",
+    "time": 50,
+    "ingredients": ["Ingredient Apple", "Ingredient Banana", "Ingredient Cherry", "Ingredient Date"],
+    "imgSrc": "./img/img-3.jpg"
+  }
+]

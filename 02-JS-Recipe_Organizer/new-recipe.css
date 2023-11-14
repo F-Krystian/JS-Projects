@@ -1,0 +1,62 @@
+.new-recipe__container {
+  max-width: 70rem;
+  width: 100%;
+  height: auto;
+  background-color: hsl(240, 50%, 90%);
+  position: absolute;
+  z-index: 90;
+  right: 0;
+  top: 120%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.new-recipe__container.inactive{
+  display: none;
+}
+
+
+.new-recipe__close{
+  align-self: flex-end;
+  border: none;
+  background-color: transparent;
+}
+
+.new-recipe__close span{
+  font-size: 3rem;
+}
+
+
+.new-recipe__close span:hover{
+  font-weight: 800;
+  cursor: pointer;  
+}
+
+.new-recipe__form{
+  width: 100%;
+  displaY: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.new-recipe__input-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: flex-start;
+}
+
+.new-recipe__input{
+  width: 100%;
+}
+
+.new-recipe__description{
+  flex-direction: column;
+}

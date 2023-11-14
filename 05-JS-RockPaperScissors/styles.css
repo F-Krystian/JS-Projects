@@ -1,0 +1,139 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+body{
+  background-color: hsl(0, 0%, 90%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 90rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game__header-h1{
+  font-size: 3.2rem;
+}
+
+.game__players{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.game__player{
+  width: 50%;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 70%);
+  border-radius: 1rem;;
+}
+
+.game__player-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  border-bottom: 1px solid black;
+  font-size: 3rem;
+}
+
+.game__player-ico-display{
+  font-size: 3rem;
+}
+
+.game__player-score{
+  margin-left: auto;
+  color: hsl(30, 50%, 50%) ;
+  font-weight: 600;
+}
+
+
+.game__player-choices{
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.img-choice{
+  max-width: 25%;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 80%);
+  border-radius: 1rem;
+}
+
+.img-choice:hover{
+  cursor: pointer;
+}
+
+/* Results */
+.game__results{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-results.active{
+  font-size: 3.6rem;
+  display: block;
+}
+
+.match-results{
+  display: none;
+}
+
+
+
+.game__round-results{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.8rem;
+  padding: 2rem;
+}
+
+.game__round-result-message.active{
+  font-size: 3.2rem;
+}
+
+.game__round-hands.active{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.game__round-hands{
+  display: none;
+}
+
+.picked-hand{
+  width: 10rem;
+  max-width: 25%;
+  padding: 1rem;
+  background: hsl(0, 0%, 60%);
+  border-radius: 1rem;
+}

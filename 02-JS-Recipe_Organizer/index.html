@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes organizer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="new-recipe.css">
+  <script src="app.js" async defer></script>
+</head>
+<body>
+<div class="wrapper">
+  <header class="header-main section__block">
+    <div class="block__container-large-row">
+      <div class="header-main__logo">
+        <h1 class="header-main__logo-text">
+          <span class="material-symbols-outlined">home</span>Home</h1>
+      </div>
+      <button class="header-main__add-recipe-btn">
+        <span class="material-symbols-outlined">add_circle</span>
+        Add recipe
+      </button> 
+      <div class="new-recipe__container inactive">
+        <button class="new-recipe__close">
+          <span class="material-symbols-outlined">
+          close
+          </span>
+        </button>
+        <form action="" method="post" class="new-recipe__form">
+          <div class="new-recipe__title new-recipe__input-box" >
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" class="new-recipe__input">
+          </div>
+          <div class="new-recipe__description new-recipe__input-box">
+            <label for="description">Description</label>
+            <textarea name="description" id="description" cols="30" rows="10" class="new-recipe__input"></textarea>
+          </div>
+          <div class="new-recipe__time new-recipe__input-box">
+            <label for="time">Time</label>
+            <input type="text" name="time" id="time" class="new-recipe__input">
+          </div>
+          <div class="new-recipe__ingredients new-recipe__input-box">
+            <label for="ingredient-1">Ingredient 1</label>
+            <input type="text" name="ingredient-1" id="ingredient-1" class="new-recipe__input">
+            <label for="ingredient-1">Ingredient 2</label>
+            <input type="text" name="ingredient-2" id="ingredient-2" class="new-recipe__input">
+            <label for="ingredient-1">Ingredient 3</label>
+            <input type="text" name="ingredient-3" id="ingredient-3" class="new-recipe__input">
+            <label for="ingredient-1">Ingredient 4</label>
+            <input type="text" name="ingredient-4" id="ingredient-4" class="new-recipe__input">
+          </div>
+          <input type="submit" value="Add recipe">
+        </form>
+      </div>         
+    </div>
+
+  </header>
+  <main class="content-main section__block">
+    <div class="block__container-large-row">
+      <div class="content__grid">
+        <!-- <div class="content__item">
+          <div class="content__item__img-box">
+            <img src="" alt="" srcset="" class="content__item__img">
+           <div class="content__item__img-time"><span class="material-symbols-outlined">
+            schedule
+            </span>45min</div>          
+          </div>
+          <div class="content__item__text">
+            <h3 class="content__item__text-title">Title</h3>
+            <p class="content__item__text-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates commodi placeat unde itaque animi explicabo excepturi ut quod esse minus!</p>
+            <button class="content__item__text-btn">More</button>
+          </div>
+        </div> -->
+        
+      </div> 
+    </div>  
+  </main>
+</div>
+</body>
+</html>
